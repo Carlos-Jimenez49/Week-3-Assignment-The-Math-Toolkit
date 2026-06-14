@@ -68,7 +68,7 @@ switch (option) {
         double result;
         printf("Enter count then values: ");
         scanf("%d", &len);
-        for (int i = 0, i < len; i++) {
+        for (int i = 0; i < len; i++) {
             scanf("%d", &value[i]);
         }
         result = average(value, len);
